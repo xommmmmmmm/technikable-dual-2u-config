@@ -43,10 +43,10 @@
 
         numsym {
             bindings = <
-&bt BT_CLR  &kp N1        &kp N1        &kp N1        &kp N1        &kp N1                &kp N1  &kp N1    &kp N1     &kp N1     &kp N1    &kp DEL
-&trans      &kp N1        &kp N1        &kp N1        &kp N1        &kp N1                &kp N1  &kp N1    kp N1      &kp N1     &kp N1    &trans
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END   &trans
-                          &trans        &trans        &trans                      &trans          &trans    &trans
+&bt BT_CLR    &kp N1        &kp N2        &kp N1        &kp N1        &kp N1          &kp N1    &kp N1        &kp N1     &kp N1   &kp N1  &kp DEL
+&trans        &kp LS(N1)    &kp N1        &kp N1        &kp N1        &kp N1          &kp N1    &kp N1 kp N1  &kp N1     &kp N1   &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans          &kp HOME  &kp PG_DN     &kp PG_UP  &kp END  &trans  &trans
+                            &trans        &trans        &trans                &trans            &trans
             >;
         };
 
